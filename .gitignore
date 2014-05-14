@@ -1,2 +1,4 @@
 # Target Ordner erstmal nicht mit Commiten
-target/
+MazeNetServer/target/*
+MazeNetClient/target/*
+
