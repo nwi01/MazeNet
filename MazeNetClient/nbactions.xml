@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-add jar</actionName>
+            <displayName>add jar</displayName>
+            <goals>
+                <goal>install:install-file</goal>
+                <goal>-Dfile=/private/rn/MazeNet/MazeNetServer/target/MazeNetServer-1.0-SNAPSHOT.jar</goal>
+                <goal>-DgroupId=de.mazenet</goal>
+                <goal>-DartifactId=mazenet</goal>
+                <goal>-Dversion=0.1</goal>
+                <goal>-Dpackaging=jar</goal>
+            </goals>
+        </action>
+    </actions>
