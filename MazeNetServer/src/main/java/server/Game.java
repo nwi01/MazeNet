@@ -228,7 +228,7 @@ public class Game extends Thread {
 	public static void main(String[] args) {
 		Game currentGame = new Game();
 		currentGame.parsArgs(args);
-		// currentGame.userinterface = Settings.USERINTERFACE;
+		currentGame.userinterface = Settings.USERINTERFACE;
 		currentGame.run();
 	}
 
